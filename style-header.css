@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 87px 15px 50px 70px;
+}
+.header{
+  background-color: rgb(232, 170, 152);
+  height: 72px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+}
+.logo{
+  height: 50px;
+  margin: 0 10px 0 10px;
+  align-self: center;
+}
+@media (max-width: 800px) {
+  .cartButton p{
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .companyName{
+    display: none;
+  }
+}
+.companyName{
+  font-size: 32px;
+  font-family: Oswald, Arial;
+  align-self: center;
+}
+.searchInput{
+  flex: 1;
+  max-width: 500px;
+  height: 36px;
+  font-size: 24px;
+  font-family: Oswald, Arial;
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.searchButton{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(246, 242, 242);
+}
+.searchButton img{
+  height: 20px;
+  align-self: center;
+}
+.cartButton{
+  height: 56px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 15px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 24px;
+  border: none;
+  background-color: rgb(206, 111, 85);
+}
+.cartButton img{
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cartButton p{
+  margin: 0 15px 0 15px;
+  flex: 1;
+  font-size: 15px;
+  font-family: Oswald, Arial;
+  color:rgb(94, 94, 94)
+}
