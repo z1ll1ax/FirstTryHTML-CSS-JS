@@ -1,0 +1,22 @@
+.mainbar{   
+    top: 72px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.containerContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.containerContact img{ 
+    width: 20px;
+    border-radius: 10px;
+}
+.containerContact p, .contactText{ 
+    flex: 1;
+    font-family: Oswald, Arial;
+}

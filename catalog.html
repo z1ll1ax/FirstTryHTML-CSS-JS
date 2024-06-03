@@ -2,13 +2,15 @@
 <html>
   <head>
     <title>My first try to HTML</title>
-    <link rel="stylesheet" href="style-header.css">
-    <link rel="stylesheet" href="style-sidebar.css">
-    <link rel="stylesheet" href="style-mainbar.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="mainbar-catalog.css">
     <!--font Oswald-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  </head>
   <body>
     <div class="header">
       <img src="imgs/logoSumka.jpg" class="logo">
@@ -23,36 +25,16 @@
       </button>
     </div>
     <div class="sidebar">
-      <button class="sidebarButton">
+      <button class="sidebarButton" onclick="Catalog()">
         <p class="sidebarText">Мои сумочки</p>
         <img src="imgs/shopping_bag.png" class="bagButtonImage">
-      </button>
-      <button class="sidebarButton2">
-        <p class="sidebarText">Сделать заказ</p>
-        <img src="imgs/check_box.png" class="bagButtonImage">
-      </button>
-      <button class="sidebarButton">
-        <p class="sidebarText">Мои сумочки</p>
-        <img src="imgs/shopping_bag.png" class="bagButtonImage">
-      </button>
-      <button class="sidebarButton2">
-        <p class="sidebarText">Сделать заказ</p>
-        <img src="imgs/check_box.png" class="bagButtonImage">
-      </button>
-      <button class="sidebarButton">
-        <p class="sidebarText">Мои сумочки</p>
-        <img src="imgs/shopping_bag.png" class="bagButtonImage">
-      </button>
-      <button class="sidebarButton2">
-        <p class="sidebarText">Сделать заказ</p>
-        <img src="imgs/check_box.png" class="bagButtonImage">
       </button>
       <div class="info">
-        <button class="sidebarButton">
+        <button class="sidebarButton" onclick="AboutUs()">
           <p class="sidebarText">О нас</p>
           <img src="imgs/question.png" class="bagButtonImage">
         </button>
-        <button class="sidebarButton2">
+        <button class="sidebarButton2" onclick="Contacts()">
           <p class="sidebarText">Контакты</p>
           <img src="imgs/contact.png" class="bagButtonImage">
         </button>

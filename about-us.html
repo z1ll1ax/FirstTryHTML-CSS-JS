@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+        About Us
+    </title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="mainbar-about-us.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+        <img src="imgs/logoSumka.jpg" class="logo">
+        <p class="companyName">Рукодельные Сумки</p>
+        <input placeholder="  Поиск" class="searchInput">
+        <button class="searchButton">
+          <img src="imgs/searchIcon.png">
+        </button>
+        <button class="cartButton">
+          <img src="imgs/shopping_cart.png">
+          <p class="shoppingCartText">Моя корзина</p>
+        </button>  
+    </div>
+      <div class="sidebar">
+        <button class="sidebarButton" onclick="Catalog()">
+          <p class="sidebarText">Мои сумочки</p>
+          <img src="imgs/shopping_bag.png" class="bagButtonImage">
+        </button>
+        <div class="info">
+            <button class="sidebarButton" onclick="AboutUs()">
+              <p class="sidebarText">О нас</p>
+              <img src="imgs/question.png" class="bagButtonImage">
+            </button>
+            <button class="sidebarButton2" onclick="Contacts()">
+              <p class="sidebarText">Контакты</p>
+              <img src="imgs/contact.png" class="bagButtonImage">
+            </button>
+          </div>
+      </div>
+      <div class="mainbar">
+        <div class="aboutUs">
+          
+        </div>
+    </div>
+  </body>
+</html>
